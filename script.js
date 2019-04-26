@@ -5,7 +5,7 @@ $(function (){
 
 	$.ajax({
 		type:'GET',
-		url: 'http://api.icndb.com/jokes/random',
+		url: 'https://api.icndb.com/jokes/random',
 		dataType:'json',
 		success: function (jokes) {
 				$jokegoeshere.html(jokes.value['joke']);			
